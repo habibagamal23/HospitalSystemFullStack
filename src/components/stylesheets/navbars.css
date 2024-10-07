@@ -1,0 +1,60 @@
+.navbar-custom {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.brand {
+    margin-right: 50px; /* Adds space after the logo */
+}
+
+.nav-center {
+    flex: 1;
+    justify-content: center; /* Centers the navigation items */
+}
+
+.nav-link {
+    color: black;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #4200FF; /* Updated hover color for links */
+}
+
+.navbar-nav .nav-item {
+    padding-left: 20px;
+}
+/* General button styling */
+.sign-button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 15px; /* Rounded corners */
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+/* Filled button (Sign in) */
+.sign-button.btn-primary {
+    background-color: #4200FF;
+    border-color: #4200FF;
+    color: white;
+}
+
+.sign-button.btn-primary:hover {
+    background-color: #2e00b8; /* Darker blue on hover */
+    border-color: #2e00b8;
+}
+
+/* Outlined button (Sign up) */
+.sign-button.btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid #4200FF;
+    color: #4200FF;
+}
+
+.sign-button.btn-outline-primary:hover {
+    background-color: #4200FF; /* Fill on hover */
+    color: white;
+}

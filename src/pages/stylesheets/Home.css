@@ -1,0 +1,138 @@
+/* Styling for the main header */
+header {
+    padding: 50px 0;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 2.8rem;  /* Larger font size */
+    color: #1F1F1F;     /* Dark color for contrast */
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Highlighting "We care" */
+h1 span {
+    color: #4200FF;     /* The blue color for "We care" */
+}
+
+/* Styling for the paragraph below the heading */
+p {
+    font-size: 1rem;      /* Smaller font size */
+    color: #A0A0A0;      /* Gray color for the text */
+    margin-top: 10px;
+}
+action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between buttons */
+}
+
+/* Book an appointment button */
+.btn-book-appointment {
+    background-color: transparent; /* Primary blue */
+
+    padding: 12px 30px;  /* Adjusted padding */
+    font-size: 1rem;
+    border-radius: 30px; /* Rounded corners */
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #4200FF; /* Icon color */
+
+    justify-content: space-between;
+    gap: 20px; /* Space between text and arrow */
+    transition: box-shadow 0.3s ease;
+    /* Shadow for elevated effect */
+}
+
+/* Arrow styling for the Book button */
+.arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for Book an appointment button */
+.btn-book-appointment:hover {
+    box-shadow: 0px 6px 20px rgba(66, 0, 255, 0.6); /* Bigger shadow on hover */
+}
+
+.btn-book-appointment:hover .arrow {
+    transform: translateX(5px); /* Animate arrow moving right */
+}
+
+/* Watch videos button */
+.btn-watch-videos {
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon circle in Watch videos button */
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #4200FF; /* Circle border */
+    border-radius: 50%; /* Fully rounded circle */
+    width: 45px;
+    height: 45px;
+    color: #4200FF; /* Icon color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for Watch videos button */
+.btn-watch-videos:hover .icon-circle {
+    background-color: #4200FF;
+    color: white;
+}
+/* Floating cards */
+.floating-card {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Positioning the floating cards */
+.top-card {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.mid-card {
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+}
+
+.bottom-card {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+/* Styling for the doctor image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Link style for "Sign up" */
+.text-primary {
+    color: #4200FF !important;
+}
+
+.text-primary:hover {
+    color: #2e00b8 !important;
+}
